@@ -1,6 +1,6 @@
 #!/bin/bash -xe
 
-#-0 リソースグループ作成
+#- リソースグループ作成
 RGNAME=user0010-webapp-image${BUILD_NUMBER}-rg
 az configure --defaults "group=''"
 az group create -l japaneast -n ${RGNAME}
